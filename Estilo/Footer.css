@@ -1,0 +1,70 @@
+
+/* Footer - Pie de pagina */
+
+.container_footer {
+	width: 100%;
+	padding: 40px 0px;
+	background: #f7f7f7;
+	margin-top: 40px;
+}
+
+.container_footer footer {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.container_footer footer .logo_footer {
+	text-align: center;
+}
+
+.container_footer footer .logo_footer img {
+	width: 100px;
+}
+
+.container_footer footer .redes_footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.container_footer footer .redes_footer .icon_redes_footer {
+	font-size: 20px;
+	margin: 20px;
+	background: #efefef;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	color: #a2a2a2;
+}
+
+.container_footer footer .imagen_1:hover {
+	background: #41579A;
+	color: white;
+}
+
+.container_footer footer .imagen_2:hover {
+	background: #DE4C34;
+	color: white;
+}
+
+.container_footer footer .imagen_3:hover {
+	background: linear-gradient(to top right, #FCDE30, #E9712A, #D23138, #AE4198, #7540A1, #5443A8);
+	color: white;
+}
+
+.container_footer footer hr {
+	margin-top: 20px;
+	border: none;
+	height: 2px;
+	background: #c0c0c07a;
+}
+
+.container_footer h4 {
+	text-align: center;
+	margin-top: 20px;
+	color: #8e8e8e;
+	font-weight: 500px;
+}
