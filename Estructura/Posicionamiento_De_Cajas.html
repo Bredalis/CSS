@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Posicionamiento De Cajas</title>
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Posicionamiento de Cajas</title>
 	<style>
-		
 		div {
 			width: 100px;
 			height: 100px;
@@ -12,24 +12,22 @@
 			color: #fff;
 			font-size: 30px;
 			float: left;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 		}
 
-		.Caja {
+		.caja {
 			position: relative;
 			top: 100px;
-			bottom: 0;
-			right: 0;
 			left: 500px;
 		}
-
 	</style>
-	
 </head>
 <body>
-
-	<div><h2>#1</h2></div>
-	<div class="Caja"><h2>#2</h2></div>
-	<div><h2>#3</h2></div>
-	<div><h2>#4</h2></div>
-</body>	
+	<div>#1</div>
+	<div class="caja">#2</div>
+	<div>#3</div>
+	<div>#4</div>
+</body>
 </html>

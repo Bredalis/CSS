@@ -1,31 +1,30 @@
 
 a {
-	font-size: 20px;
-	color: skyblue;
-	text-decoration: none;
-	margin: 10px 10px;
-	padding: 10px 10px;
-	display: inline-block;
+    font-size: 20px;
+    color: skyblue;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
 }
 
 /* Seudoclases */
-
 a:link {
-	color: #CCD1D1;
+    color: #CCD1D1;
 }
 
 a:hover {
-	text-decoration: underline;
-	font-size: 20px;
-	background: pink;
-	color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    background: pink;
+    color: white;
 }
 
 a:active {
-	background: orange;
+    background: orange;
 }
 
 a:visited {
-	color: purple;
-	text-decoration: line-through;;
+    color: purple;
+    text-decoration: line-through;
 }

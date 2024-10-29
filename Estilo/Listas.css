@@ -1,31 +1,33 @@
 
 ul > ul {
-	list-style-type: circle;
-	list-style-position: inside;
+    list-style-type: circle;
+    list-style-position: inside;
 }
 
 ol {
-	list-style-type: lower-latin;
+    list-style-type: lower-latin;
 }
 
 .menu {
-	width: 100%;
-	background: #ccc;
-	list-style: none;
-	margin: 0;
-	padding: 0;
+    width: 100%;
+    background: #ccc;
+    list-style: none;
+    margin: 0; 
+    padding: 0;
 }
 
 .menu li {
-	display: inline-block;
+    display: inline-block;
 }
 
 .menu li a {
-	padding: 10px 20px;
-	display: inline-block;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
 }
 
 .menu li a:hover {
-	background: pink;
-	color: #000;
+    background: pink;
+    color: #000;
 }
