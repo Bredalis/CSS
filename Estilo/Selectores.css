@@ -1,9 +1,8 @@
 
 /* Selector universal */
-
 * {
-	margin:5;
-	padding: 2;
+	margin: 5px;
+	padding: 2px;
 	color: brown;
 	font-style: italic;
 }
@@ -21,10 +20,10 @@ h2 strong {
 	color: pink;
 }
 
-.Titular_4 {
+.titular-4 {
 	color: green;
 }
 
-#Titular_5 {
+#titular-5 {
 	color: coral;
 }
